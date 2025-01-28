@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>HTML Images</h1>
+
+    <h2>Example</h2>
+    <img
+      src="C:\Users\aysel\Documents\GitHub\Patika-FrontEndCourse\Week_1\assets\Kizkulesi.jpg"
+      alt="Kiz Kulesi"
+    />
+
+    <h2>Attributes</h2>
+
+    <h3>The <code>alt</code> Attribute</h3>
+    <p>
+      Gorsel olmadiginda gosterilir ve google burdan ne gorseli oldugunu
+      algiliyor
+    </p>
+
+    <h3>The <code>witdh</code> and <code>height</code> Attribute</h3>
+    <img
+      src="C:\Users\aysel\Documents\GitHub\Patika-FrontEndCourse\Week_1\assets\Kizkulesi.jpg"
+      alt="Kiz Kulesi"
+      witdh="450"
+      height="300"
+    />
+
+    <h3>The <code>srcset</code> Attribute</h3>
+    <img
+      src="C:\Users\aysel\Documents\GitHub\Patika-FrontEndCourse\Week_1\assets\Kizkulesi.jpg"
+      alt="Kiz kulesi"
+      srcset="
+        C:\Users\aysel\Documents\GitHub\Patika-FrontEndCourse\Week_1\assets\Kizkulesi.jpg,
+        ...
+      "
+    />
+    <p>
+      eger cok yuksek kaliteliyse ekran, resim netligini arttirarak tarayiciya
+      al bunu kullan diyoruz ben 3 nokta koydum ama yuksek kalitelilerle devam
+      ettiriyoruz en fazla 3x
+    </p>
+
+    <h3>The <code>loading</code> Attribute</h3>
+    <img
+      src="C:\Users\aysel\Documents\GitHub\Patika-FrontEndCourse\Week_1\assets\Kizkulesi.jpg"
+      alt="Kiz Kulesi"
+      loading="lazy"
+    />
+    <p>
+      lazy olan asagi indikce gorselleri yukler ama eager dedigimiz acilir
+      acilmaz butun gorselleri yukler ve internet kullanimini arttirir
+    </p>
+
+    <h3>The <code>picture</code> Attribute</h3>
+    <picture>
+      <source
+        srcset="
+          C:\Users\aysel\Documents\GitHub\Patika-FrontEndCourse\Week_1\assets\Kizkulesi.avif
+        "
+        type="image/avif"
+        width="950"
+      />
+      <source
+        srcset="
+          C:\Users\aysel\Documents\GitHub\Patika-FrontEndCourse\Week_1\assets\Kizkulesi.webp
+        "
+        type="image/webp"
+        width="850"
+      />
+      <source
+        srcset="
+          C:\Users\aysel\Documents\GitHub\Patika-FrontEndCourse\Week_1\assets\Kizkulesi.jpg
+        "
+        type="image/jpeg"
+        width="750"
+      />
+      <p>Yeni nesil resimler icin kullanilir</p>
+    </picture>
+  </body>
+</html>
