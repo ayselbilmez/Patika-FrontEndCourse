@@ -18,7 +18,7 @@
 </body>
 </html>
 ```
-3 - Sayfa Başlığı: Sayfanın başlığı olarak "Sınıf Tablosu" ifadesini kullanın ve <h1> etiketi ile sayfa başlığını belirleyin.
+3 - Sayfa Başlığı: Sayfanın başlığı olarak "Sınıf Tablosu" ifadesini kullanın ve h1 etiketi ile sayfa başlığını belirleyin.
 
 4 - Tablonun Oluşturulması: <table> etiketi ile bir tablo oluşturun. Tabloya başlık (header) satırı ekleyin ve dört sütun başlığı tanımlayın: "Öğrenci Numarası", "Adı", "Soyadı" ve "Notu".
 
