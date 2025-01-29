@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formlar</title>
+  </head>
+  <body>
+    <h1>HTML Formlar</h1>
+
+    <h2>Example</h2>
+    <form>
+      <fieldset>
+        <legend>Kişisel:</legend>
+        <div>
+          <label for="fullname">İsim ve Soyisim</label>
+          <input type="text" id="fullname" />
+        </div>
+        <div>
+          <label for="gender">Cinsiyet</label>
+          <input type="radio" name="gender" value="male" />Erkek
+          <input type="radio" name="gender" value="female" /> Kadın
+        </div>
+        <div>
+          <label for="birthday">Doğum Tarihi</label>
+          <input type="date" id="birthday" />
+        </div>
+        <div>
+          <label for="city">Şehir</label>
+          <select id="city">
+            <option value="">Seçiniz...</option>
+            <optgroup label="marmara">
+              <option value="İstanbul">İstanbul</option>
+              <option value="Edirne">Edirne</option>
+            </optgroup>
+
+            <optgroup label="ege">
+              <option value="İzmir">İzmir</option>
+              <option value="Muğla">Muğla</option>
+            </optgroup>
+
+            <optgroup label="doğu anadolu">
+              <option value="Kars">Kars</option>
+              <option value="Ağrı">Ağrı</option>
+            </optgroup>
+          </select>
+        </div>
+        <div>
+          <label>Hobiler</label>
+          <input type="checkbox" name="hobbies[]" value="sport" /> spor
+          <input type="checkbox" name="hobbies[]" value="music" /> müzik
+          <input type="checkbox" name="hobbies[]" value="read" /> kitap okumak
+        </div>
+        <div>
+          <label for="cv">Özgeçmiş</label>
+          <input type="file" id="cv" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>İletişim</legend>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+        </div>
+        <div>
+          <label for="phone">Tel:</label>
+          <input type="tel" id="phone" />
+        </div>
+        <div>
+          <label for="address">Adres:</label>
+          <textarea id="address" rows="5" cols="30"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <div>
+          <label for="password">Şifre</label>
+          <input type="password" id="password" />
+        </div>
+        <div>
+          <button type="submit">Kayıt ol</button>
+          <button type="reset">Temizle</button>
+        </div>
+      </fieldset>
+
+      <h2>HTML input types</h2>
+
+      <h3>Input Type Color</h3>
+
+      <input type="color" />
+
+      <h3>Number</h3>
+      <input type="number" />
+
+      <h3>range</h3>
+      <input type="range" value="100" />
+
+      <h3>Time</h3>
+      <input type="time" />
+
+      <h3>value</h3>
+      <input type="value" value="aysel" />
+
+      <h3>readonly</h3>
+      <input type="text" value="aysel" readonly />
+
+      <h3>disabled</h3>
+      <input type="number" value="28" disabled />
+
+      <h3>placeholder</h3>
+      <input type="tel" placeholder="500 000 0000" />
+    </form>
+  </body>
+</html>
