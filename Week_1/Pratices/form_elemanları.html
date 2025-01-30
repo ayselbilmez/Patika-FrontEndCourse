@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Elemanları Kullanımı</title>
+  </head>
+  <body>
+    <h1>Pratik 2 - Form Elemanları Kullanımı</h1>
+    <form>
+      <fieldset>
+        <legend>Kişisel Bilgiler</legend>
+        <br />
+        <div>
+          <label for="name">İsim:</label>
+          <input type="text" id="name" />
+        </div>
+        <br />
+        <div>
+          <label for="surname">Soyisim:</label>
+          <input type="text" id="surname" />
+        </div>
+        <br />
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" />
+        </div>
+        <br />
+        <div>
+          <label for="password">Şifre</label>
+          <input type="password" id="password" />
+        </div>
+        <br />
+        <div>
+          <label for="gender">Cinsiyet</label>
+          <input type="radio" id="female" /> Kadın
+          <input type="radio" id="male" /> Erkek
+        </div>
+        <br />
+        <div>
+          <label for="fruit">En sevdiğin meyve:</label>
+          <select id="fruit">
+            <option value="select">Seçiniz...</option>
+            <option value="Apple">Elma</option>
+            <option value="Banana">Muz</option>
+            <option value="Pineapple">Ananas</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="message">Mesajınız:</label>
+          <textarea id="message" rows="5" cols="30"></textarea>
+        </div>
+        <br />
+        <div>
+          <button type="submit">Gönder</button>
+          <button type="reset">Temizle</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
