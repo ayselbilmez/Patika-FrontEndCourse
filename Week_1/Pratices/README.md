@@ -2,6 +2,7 @@
 
 - [Pratik 1 - Sınıf Tablosu](#pratik-1---sınıf-tablosu)
 - [Pratik 2 - Form Elemanları Kullanımları](#pratik-2---form-elemanları-kullanımları)
+- [Ödev 1 - İlk Web Sayfamızı Oluşturmak](#ödev-1---i̇lk-web-sayfamızı-oluşturmak)
 
 ## Pratik 1 - Sınıf Tablosu
 
@@ -147,4 +148,152 @@
           <button type="submit">Gönder</button>
           <button type="reset">Temizle</button>
         </div>
+```
+
+## Ödev 1 - İlk Web Sayfamızı Oluşturmak
+
+## Soru ve Cevapları:
+
+1. Genel Yapı:
+
+Sayfanızın temel yapısını oluşturmak için HTML5 doküman yapısını kullanın.
+
+<head> etiketinin içinde sayfanızın başlığı (<title>) ve karakter seti (<meta charset="UTF-8">) olmalıdır.
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Özgecmişim</title>
+  </head>
+```
+
+2. Sayfanızın en üstünde bir ana başlık (<h1>) bulunmalıdır. Bu başlık adınızı içermelidir.
+
+```HTML
+    <h1 style="text-align: center; color: blueviolet">Aysel Bilmez</h1>
+```
+
+Alt başlıklar (<h2>, <h3>, vb.) kullanarak CV’nizin bölümlerini (Özgeçmiş, Eğitim, İş Deneyimi, Yetenekler, İletişim) düzenleyin.
+
+```HTML
+<h2 style="color: navy">Summary</h2>
+```
+
+Her bölümde en az bir paragraf (<p>) olmalıdır. Örneğin, kendinizi tanıtan kısa bir paragraf.
+
+```HTML
+<p style="text-align: justify">
+        Former R&D Food Engineer transitioning into software development,
+        leveraging strong analytical skills and experience in customer-focused
+        projects and teamwork. Skilled in .NET Frameworks, ASP.NET, .NET API,
+        and SQL, with hands-on experience designing user-centered web
+        applications. Continuously learning and adapting by utilizing diverse
+        resources, with a strong belief in the importance of growth and staying
+        agile in a fast-changing field. Fluent in English and Turkish, ready to
+        contribute to impactful software projects with a detail-oriented and
+        innovative approach.
+</p>
+```
+
+3. En az bir sıralı liste (<ol>) ve bir sırasız liste (<ul>) kullanın.
+   Sırasız listede yeteneklerinizi veya hobilerinizi listeleyin. Her listenin en az üç maddesi (<li>) olmalıdır.
+
+```HTML
+<ol>
+        <li>Turkish (Native)</li>
+        <li>English (Fluent)</li>
+      </ol>
+```
+
+```HTML
+<ul>
+        <li>Gaining proficiency in Full-Stack Technologies.</li>
+        <li>
+          Building and optimizing full-stack web applications with a
+          user-centric approach.
+        </li>
+        <li>
+          Applying problem-solving skills to debug and enhance web application
+          performance.
+        </li>
+      </ul>
+```
+
+4. Sayfanızda en az bir tane resim (<img>) kullanın. Bu resim, sizin bir fotoğrafınız olabilir. Resmin alt özniteliğini doldurun.
+
+```HTML
+ <img
+        src="https://store.patika.dev/userFiles/aysbi/userfiles/profilepicture-zEe73P6i"
+        alt="Aysel Bilmez"
+        width="300"
+      />
+```
+
+En az iki farklı sayfaya veya web sitesine bağlantı (<a>) ekleyin.
+
+```HTML
+<p style="text-align: center">
+        <a
+          href="mailto:aybilmez@gmail.com"
+          style="color: black; text-decoration: none"
+          >Email</a
+        >
+        |
+        <a href="tel:+905397844110" style="color: black; text-decoration: none"
+          >Telefon Numarası</a
+        >
+        |
+        <a
+          href="https://www.linkedin.com/in/ayselbilmez/"
+          style="color: black; text-decoration: none"
+          >Linkedin</a
+        >
+        |
+        <a
+          href="https://github.com/aysbi"
+          style="color: black; text-decoration: none"
+          >GitHub</a>
+```
+
+5. Sayfanızda en az bir tane iframe (<iframe>) kullanarak başka bir web sayfasını veya içeriği entegre edin. Örneğin, Google Maps kullanarak bulunduğunuz yerin haritasını ekleyin. width ve height özniteliklerini kullanarak iframe boyutlarını ayarlayın.
+
+```HTML
+<iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0177463439167!2d35.32131718468505!3d37.00167077979803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1521c6d014c081ff%3A0x37aab8c8ca021c29!2sAdana!5e0!3m2!1str!2str!4v1674698172202!5m2!1str!2str"
+          width="600"
+          height="450"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+```
+
+6. Sayfanızın içinde CSS kullanarak (örneğin, <style> etiketi içinde) en azından temel stiller uygulayın
+
+```HTML
+<p style="text-align: center">
+```
+
+7. Sayfanızın düzenini iyi düşünün. İçeriğinizi bölümlere ayırarak düzenli ve okunabilir hale getirin.
+
+<div> veya <section> etiketlerini kullanarak bölümler oluşturabilirsiniz.
+```HTML
+<div>
+      <h2 style="color: navy">Summary</h2>
+      <p style="text-align: justify">
+        Former R&D Food Engineer transitioning into software development,
+        leveraging strong analytical skills and experience in customer-focused
+        projects and teamwork. Skilled in .NET Frameworks, ASP.NET, .NET API,
+        and SQL, with hands-on experience designing user-centered web
+        applications. Continuously learning and adapting by utilizing diverse
+        resources, with a strong belief in the importance of growth and staying
+        agile in a fast-changing field. Fluent in English and Turkish, ready to
+        contribute to impactful software projects with a detail-oriented and
+        innovative approach.
+      </p>
 ```
