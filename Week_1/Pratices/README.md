@@ -157,8 +157,7 @@
 1. Genel Yapı:
 
 Sayfanızın temel yapısını oluşturmak için HTML5 doküman yapısını kullanın.
-
-<head> etiketinin içinde sayfanızın başlığı (<title>) ve karakter seti (<meta charset="UTF-8">) olmalıdır.
+head etiketinin içinde sayfanızın başlığı ve karakter seti  olmalıdır.
 
 ```HTML
 <!DOCTYPE html>
@@ -170,19 +169,19 @@ Sayfanızın temel yapısını oluşturmak için HTML5 doküman yapısını kull
   </head>
 ```
 
-2. Sayfanızın en üstünde bir ana başlık (<h1>) bulunmalıdır. Bu başlık adınızı içermelidir.
+2. Sayfanızın en üstünde bir ana başlık  bulunmalıdır. Bu başlık adınızı içermelidir.
 
 ```HTML
     <h1 style="text-align: center; color: blueviolet">Aysel Bilmez</h1>
 ```
 
-Alt başlıklar (<h2>, <h3>, vb.) kullanarak CV’nizin bölümlerini (Özgeçmiş, Eğitim, İş Deneyimi, Yetenekler, İletişim) düzenleyin.
+Alt başlıklar  kullanarak CV’nizin bölümlerini  düzenleyin.
 
 ```HTML
 <h2 style="color: navy">Summary</h2>
 ```
 
-Her bölümde en az bir paragraf (<p>) olmalıdır. Örneğin, kendinizi tanıtan kısa bir paragraf.
+Her bölümde en az bir paragraf olmalıdır. 
 
 ```HTML
 <p style="text-align: justify">
@@ -198,8 +197,7 @@ Her bölümde en az bir paragraf (<p>) olmalıdır. Örneğin, kendinizi tanıta
 </p>
 ```
 
-3. En az bir sıralı liste (<ol>) ve bir sırasız liste (<ul>) kullanın.
-   Sırasız listede yeteneklerinizi veya hobilerinizi listeleyin. Her listenin en az üç maddesi (<li>) olmalıdır.
+3. En az bir sıralı liste ve bir sırasız liste  kullanın.
 
 ```HTML
 <ol>
@@ -222,7 +220,7 @@ Her bölümde en az bir paragraf (<p>) olmalıdır. Örneğin, kendinizi tanıta
       </ul>
 ```
 
-4. Sayfanızda en az bir tane resim (<img>) kullanın. Bu resim, sizin bir fotoğrafınız olabilir. Resmin alt özniteliğini doldurun.
+4. Sayfanızda en az bir tane resim  kullanın. 
 
 ```HTML
  <img
@@ -232,7 +230,7 @@ Her bölümde en az bir paragraf (<p>) olmalıdır. Örneğin, kendinizi tanıta
       />
 ```
 
-En az iki farklı sayfaya veya web sitesine bağlantı (<a>) ekleyin.
+En az iki farklı sayfaya veya web sitesine bağlantı ekleyin.
 
 ```HTML
 <p style="text-align: center">
@@ -258,7 +256,7 @@ En az iki farklı sayfaya veya web sitesine bağlantı (<a>) ekleyin.
           >GitHub</a>
 ```
 
-5. Sayfanızda en az bir tane iframe (<iframe>) kullanarak başka bir web sayfasını veya içeriği entegre edin. Örneğin, Google Maps kullanarak bulunduğunuz yerin haritasını ekleyin. width ve height özniteliklerini kullanarak iframe boyutlarını ayarlayın.
+5. Sayfanızda en az bir tane iframe kullanarak başka bir web sayfasını veya içeriği entegre edin. 
 
 ```HTML
 <iframe
@@ -273,7 +271,7 @@ En az iki farklı sayfaya veya web sitesine bağlantı (<a>) ekleyin.
         ></iframe>
 ```
 
-6. Sayfanızın içinde CSS kullanarak (örneğin, <style> etiketi içinde) en azından temel stiller uygulayın
+6. Sayfanızın içinde CSS kullanarak (örneğin, style etiketi içinde) en azından temel stiller uygulayın
 
 ```HTML
 <p style="text-align: center">
@@ -281,7 +279,7 @@ En az iki farklı sayfaya veya web sitesine bağlantı (<a>) ekleyin.
 
 7. Sayfanızın düzenini iyi düşünün. İçeriğinizi bölümlere ayırarak düzenli ve okunabilir hale getirin.
 
-<div> veya <section> etiketlerini kullanarak bölümler oluşturabilirsiniz.
+div veya section etiketlerini kullanarak bölümler oluşturabilirsiniz.
 ```HTML
 <div>
       <h2 style="color: navy">Summary</h2>
@@ -296,4 +294,5 @@ En az iki farklı sayfaya veya web sitesine bağlantı (<a>) ekleyin.
         contribute to impactful software projects with a detail-oriented and
         innovative approach.
       </p>
+</div>
 ```
