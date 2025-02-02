@@ -4,6 +4,7 @@
 - [Pratik 2 - Form Elemanları Kullanımları](#pratik-2---form-elemanları-kullanımları)
 - [Ödev 1 - İlk Web Sayfamızı Oluşturmak](#ödev-1---i̇lk-web-sayfamızı-oluşturmak)
 - [Ödev 2 - Kişisel Blog Sayfası Oluşturma](#ödev-2---kişisel-blog-sayfası-oluşturma)
+- [Ödev 3 - Rehber Web Sitesi Oluşturma](#ödev-3---rehber-web-sitesi-oluşturma)
 
 ## Pratik 1 - Sınıf Tablosu
 
@@ -374,3 +375,37 @@ Blog yazılarının içinde başka sayfalara veya kaynaklara bağlantılar a ekl
             >RESTful API hakkında daha fazla bilgi için buraya tıklayın!</a
           >
 ```
+
+## Ödev 3 - Rehber Web Sitesi Oluşturma
+
+## Sorular:
+
+1. Ana sayfa (index.html) ve en az üç alt sayfa (örneğin, hakkinda.html, iletisim.html, servisler.html) oluşturun.
+
+Her sayfanın temel yapısını oluşturmak için HTML5 doküman yapısını kullanın.
+
+head etiketinin içinde sayfanın başlığı title ve karakter seti meta charset="UTF-8" olmalıdır.
+
+2. Her sayfanın en üstünde, diğer sayfalara bağlantılar içeren bir navigasyon menüsü oluşturun. Menüde en az dört bağlantı olmalıdır: Ana Sayfa, Hakkında, Servisler, İletişim.
+
+3. Ana sayfada web sitenizin amacını belirten bir ana başlık olmalıdır.
+
+Bir tanıtım metni için birkaç paragraf yazın.
+
+En az bir görsel ekleyin ve alt özniteliğini doldurun.
+
+Ana sayfada ayrıca en az bir sıralı liste veya sırasız liste kullanarak önemli noktaları veya hizmetleri listeleyin.
+
+4. Şirketiniz veya kendiniz hakkında bilgi veren bir başlık ve birkaç paragraf yazın.
+
+Kuruluş tarihleri veya önemli olaylar için sıralı liste kullanın.
+
+5. Sunulan hizmetlerin bir listesini oluşturun. Her hizmet için bir başlık ve açıklayıcı bir paragraf ekleyin.
+
+Hizmetleri tanımlamak için sırasız liste kullanın.
+
+6. İletişim bilgilerini içeren bir başlık ve bir paragraf yazın.
+
+İletişim bilgileri (adres, telefon, e-posta) için bir sırasız liste kullanın.
+
+Bir iletişim formu oluşturun. Formda ad, e-posta ve mesaj alanları olmalıdır. (Kullanıcıdan giriş almak için sadece HTML kullanın, formu işlemek için herhangi bir arka uç dili gerekmiyor.)
