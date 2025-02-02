@@ -3,6 +3,7 @@
 - [Pratik 1 - Sınıf Tablosu](#pratik-1---sınıf-tablosu)
 - [Pratik 2 - Form Elemanları Kullanımları](#pratik-2---form-elemanları-kullanımları)
 - [Ödev 1 - İlk Web Sayfamızı Oluşturmak](#ödev-1---i̇lk-web-sayfamızı-oluşturmak)
+- [Ödev 2 - Kişisel Blog Sayfası Oluşturma](#ödev-2---kişisel-blog-sayfası-oluşturma)
 
 ## Pratik 1 - Sınıf Tablosu
 
@@ -157,7 +158,7 @@
 1. Genel Yapı:
 
 Sayfanızın temel yapısını oluşturmak için HTML5 doküman yapısını kullanın.
-head etiketinin içinde sayfanızın başlığı ve karakter seti  olmalıdır.
+head etiketinin içinde sayfanızın başlığı ve karakter seti olmalıdır.
 
 ```HTML
 <!DOCTYPE html>
@@ -169,19 +170,19 @@ head etiketinin içinde sayfanızın başlığı ve karakter seti  olmalıdır.
   </head>
 ```
 
-2. Sayfanızın en üstünde bir ana başlık  bulunmalıdır. Bu başlık adınızı içermelidir.
+2. Sayfanızın en üstünde bir ana başlık bulunmalıdır. Bu başlık adınızı içermelidir.
 
 ```HTML
     <h1 style="text-align: center; color: blueviolet">Aysel Bilmez</h1>
 ```
 
-Alt başlıklar  kullanarak CV’nizin bölümlerini  düzenleyin.
+Alt başlıklar kullanarak CV’nizin bölümlerini düzenleyin.
 
 ```HTML
 <h2 style="color: navy">Summary</h2>
 ```
 
-Her bölümde en az bir paragraf olmalıdır. 
+Her bölümde en az bir paragraf olmalıdır.
 
 ```HTML
 <p style="text-align: justify">
@@ -197,7 +198,7 @@ Her bölümde en az bir paragraf olmalıdır.
 </p>
 ```
 
-3. En az bir sıralı liste ve bir sırasız liste  kullanın.
+3. En az bir sıralı liste ve bir sırasız liste kullanın.
 
 ```HTML
 <ol>
@@ -220,7 +221,7 @@ Her bölümde en az bir paragraf olmalıdır.
       </ul>
 ```
 
-4. Sayfanızda en az bir tane resim  kullanın. 
+4. Sayfanızda en az bir tane resim kullanın.
 
 ```HTML
  <img
@@ -256,7 +257,7 @@ En az iki farklı sayfaya veya web sitesine bağlantı ekleyin.
           >GitHub</a>
 ```
 
-5. Sayfanızda en az bir tane iframe kullanarak başka bir web sayfasını veya içeriği entegre edin. 
+5. Sayfanızda en az bir tane iframe kullanarak başka bir web sayfasını veya içeriği entegre edin.
 
 ```HTML
 <iframe
@@ -280,6 +281,7 @@ En az iki farklı sayfaya veya web sitesine bağlantı ekleyin.
 7. Sayfanızın düzenini iyi düşünün. İçeriğinizi bölümlere ayırarak düzenli ve okunabilir hale getirin.
 
 div veya section etiketlerini kullanarak bölümler oluşturabilirsiniz.
+
 ```HTML
 <div>
       <h2 style="color: navy">Summary</h2>
