@@ -369,6 +369,8 @@ Her blog yazısı için bir başlık h2 ve bir paragraf p ekleyin. En az üç bl
 
 Blog yazılarının içinde başka sayfalara veya kaynaklara bağlantılar a ekleyin. En az iki bağlantı olmalıdır.
 
+```HTML
 <a href="https://developer.mozilla.org/tr/docs/Glossary/REST"
             >RESTful API hakkında daha fazla bilgi için buraya tıklayın!</a
           >
+```
