@@ -297,3 +297,77 @@ En az iki farklı sayfaya veya web sitesine bağlantı (<a>) ekleyin.
         innovative approach.
       </p>
 ```
+
+## Ödev 2 - Kişisel Blog Sayfası Oluşturma
+
+## Soru ve Cevapları:
+
+1. Sayfanızın temel yapısını oluşturmak için HTML5 doküman yapısını kullanın.
+
+head etiketinin içinde sayfanızın başlığı title ve karakter seti meta charset="UTF-8" olmalıdır.
+
+```HTML
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kişisel Blog</title>
+  </head>
+  <body>
+    <header>
+      <h1>Yazılım ve Eğlence Blogu</h1>
+    </header>
+```
+
+2. Sayfanızın en üstünde blogunuzun adını içeren bir ana başlık h1 olmalıdır.
+
+Her blog yazısı için bir başlık h2 ve bir paragraf p ekleyin. En az üç blog yazısı ekleyin.
+
+```HTML
+
+ <header>
+      <h1>Yazılım ve Eğlence Blogu</h1>
+    </header>
+
+    <section>
+      <article>
+        <h2>
+          RESTful API: Çayınızı Kahvenizi Hazırlayın, Çünkü O Bir Servis! ☕
+        </h2>
+        <p>
+          Bir sabah uyandınız ve "Ben bir RESTful API yazacağım!" dediniz. Ama
+          API neydi? Rest mi ediyordu? Yoksa kahvaltıda mı servis ediliyordu? 🤔
+          Gelin, bu karmaşık gibi görünen ama aslında çok eğlenceli olan konuyu
+          basit ve eğlenceli bir şekilde açıklayalım!
+        </p>
+        </article>
+        </section>
+```
+
+3. Her blog yazısında en az bir sırasız liste ul veya sıralı liste ol kullanarak önemli noktaları veya maddeleri listeleyin.
+
+```HTML
+<ul>
+          <li>Sen: "Merhaba, bir büyük boy pizza istiyorum."</li>
+          <li>Pizzacı: "Tamam, siparişiniz alındı!"</li>
+          <li>(Bir süre sonra kapı çalar)</li>
+          <li>Pizzacı: "Buyurun, sıcak ve taze pizzanız geldi!"</li>
+        </ul>
+```
+
+4. Her blog yazısına en az bir görsel img ekleyin ve alt özniteliğini doldurun.
+
+```HTML
+       <img
+          src="https://img.sepetkey.com/album/italiandipizza/urunler/IrAWB6JxqcQYG2S20Cwg.png"
+          alt="Bir dilim pizza resmi"
+          width="300"
+        />
+```
+
+Blog yazılarının içinde başka sayfalara veya kaynaklara bağlantılar a ekleyin. En az iki bağlantı olmalıdır.
+
+<a href="https://developer.mozilla.org/tr/docs/Glossary/REST"
+            >RESTful API hakkında daha fazla bilgi için buraya tıklayın!</a
+          >
