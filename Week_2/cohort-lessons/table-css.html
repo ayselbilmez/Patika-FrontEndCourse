@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid gray;
+      }
+      table {
+        min-width: 600px;
+        border-collapse: collapse;
+      }
+      caption {
+        font-size: 24px;
+        font-weight: bold;
+        padding-bottom: 8px;
+      }
+      th {
+        padding: 8px 16px;
+        height: 40px;
+        font-weight: bold;
+        text-align: center;
+        background-color: bisque;
+      }
+      td {
+        font: 16px;
+        padding: 8px 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML Tables</h1>
+
+    <table>
+      <caption>
+        Table
+      </caption>
+      <colgroup>
+        <col span="2" style="background-color: aqua" />
+        <col style="background-color: aliceblue" />
+      </colgroup>
+      <thead>
+        <th>Pazartesi</th>
+        <th>Sali</th>
+        <th>Carsamba</th>
+        <th>Persembe</th>
+        <th>Cuma</th>
+        <th>Cumartesi</th>
+        <th>Pazar</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">1</td>
+          <td rowspan="2">3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="6">Toplam</th>
+          <th>900</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

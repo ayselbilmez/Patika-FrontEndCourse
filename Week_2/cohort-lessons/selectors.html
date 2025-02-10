@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+      .c1 {
+        padding-left: 8px;
+        border-left: 5px solid orange;
+      }
+      .c2.c3 {
+        padding-left: 8px;
+        border-left: 5px solid orange;
+      }
+      .c4 .c5 {
+        padding: 1px 3px;
+        border: 5px solid orange;
+      }
+      #paragraph {
+        padding-left: 8px;
+        border-left: 5px solid orangered;
+      }
+      p.c6 {
+        padding-left: 8px;
+        border-left: 5px solid orangered;
+      }
+      p mark {
+        padding: 1px 3px;
+        border: 5px solid orangered;
+      }
+      p > mark {
+        padding-left: 8px;
+        border: 5px solid navy;
+      }
+      [href="https://wwww.patika.dev"]
+      {
+        padding-left: 8px;
+        border: 5px solid navy;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Selectors</h1>
+    <h2>.class</h2>
+    <p class="c1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nesciunt
+    </p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt autem</p>
+
+    <h2>.class1.class2</h2>
+    <p class="c2 c3">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo tenetur
+      dignissimos repellendus eveniet explicabo! Repellat accusantium provident
+      itaque quis ipsam. Consequatur consectetur ab maxime eius minus ducimus,
+      maiores quis vel?
+    </p>
+    <p class="c2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatem
+      incidunt beatae excepturi iure quasi nostrum, ad possimus ea, atque
+      voluptate sed earum qui tenetur quas asperiores facere consequatur.
+      Deleniti?
+    </p>
+
+    <h2>.class1 .class2</h2>
+
+    <p class="c4">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor officiis
+      <span class="c5">consectetur adipisicing elit. Nobis</span>
+      vero dolores excepturi praesentium illo itaque ea molestiae nisi iusto
+      explicabo ex voluptatum, ullam asperiores! Nulla quam autem optio minima!
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet, accusantium repellat et autem saepe
+      fugiat<span class="c5">consectetur adipisicing elit. Nobis</span>
+      <!--burda olmaz cunku c4 icinde degil-->
+      impedit dicta officiis! Nisi enim voluptas fuga assumenda consequuntur
+      saepe fugiat tempore dignissimos pariatur illum.
+    </p>
+
+    <h2>#id</h2>
+    <p id="paragraph">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim itaque
+      voluptatum facilis deserunt error ratione cumque commodi suscipit, quia
+      quisquam. Officiis esse nesciunt accusantium illum facere quas aperiam
+      voluptate debitis.
+    </p>
+
+    <h2>element.class</h2>
+    <p class="c6">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore cumque
+      possimus delectus exercitationem esse similique nihil nostrum libero modi,
+      consequuntur cum, consectetur earum numquam eligendi quasi. Ullam aliquid
+      reprehenderit aspernatur.
+    </p>
+    <div class="c6">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt odit,
+      quidem velit quos optio tempore ipsum voluptate nobis eaque architecto ab
+      quia nisi, necessitatibus explicabo voluptates? Illum nulla natus
+      voluptates!
+    </div>
+    <!--element icinde class icin o elementin icinde class olmali-->
+
+    <h2>element > element</h2>
+    <p>
+      Lorem ipsum dolor sit
+      <mark>Lorem ipsum dolor sit amet consectetur adipisicing elit</mark> amet
+      consectetur adipisicing elit. Libero provident ex error consequuntur odit
+      totam quibusdam magnam voluptas maxime, consequatur cupiditate vero. Harum
+      minus enim voluptatum architecto numquam ullam facilis!
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit
+      <span
+        ><mark
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit</mark
+        ></span
+      >
+      amet consectetur adipisicing elit. Libero provident ex error consequuntur
+      odit totam quibusdam magnam voluptas maxime, consequatur cupiditate vero.
+      Harum minus enim voluptatum architecto numquam ullam facilis!
+    </p>
+
+    <h2>[attritube="value"]</h2>
+    <a href="https://www.google.com">Google</a> <br />
+    <a href="https://wwww.patika.dev">Patika stilli</a>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Outline</title>
+    <style>
+      p {
+        outline-width: 20px;
+        outline-color: blueviolet;
+        outline-offset: 2px;
+        border: 1px solid gray; /*Goruldugu gibi border fiziki bir yer tutup oncesindeki yerleri yitiyor*/
+      }
+      .c1 {
+        outline-style: dotted;
+      }
+      .c2 {
+        outline-style: dashed;
+      }
+      .c3 {
+        outline-style: solid;
+      }
+      .c4 {
+        outline-style: double;
+      }
+      .c5 {
+        outline: 5px dotted red;
+        outline-offset: -10px;
+      }
+      /*Eger offset - deger alirsa border cizgisinin icinde olur disinda degil */
+    </style>
+  </head>
+  <body>
+    <h1>CSS Outline</h1>
+    <h2>Outline style</h2>
+    <h3>Dotted</h3>
+    <p class="c1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+      similique ullam omnis maiores, deleniti nobis porro culpa delectus
+      veritatis corporis sapiente quae maxime excepturi repellat odit in vero
+      iusto amet.
+    </p>
+    <h3>dashed</h3>
+    <p class="c2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nam dolor
+      blanditiis fugiat voluptates saepe deleniti numquam quis nemo excepturi,
+      deserunt libero magni quasi quisquam est exercitationem dolore ea
+      mollitia?
+    </p>
+    <h3>solid</h3>
+    <p class="c3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aspernatur,
+      autem maxime eveniet, aliquam soluta nulla delectus praesentium commodi
+      itaque voluptatibus totam fugit consectetur vitae a culpa, nihil porro
+      molestiae.
+    </p>
+    <h3>double</h3>
+    <p class="c4">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam atque unde
+      eos eum cumque officiis omnis nam explicabo, eligendi nostrum nemo
+      blanditiis odit magnam fuga temporibus repellendus officia perspiciatis.
+      Odit.
+    </p>
+    <h3>shorthand ve -offset</h3>
+    <p class="c5">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam atque unde
+      eos eum cumque officiis omnis nam explicabo, eligendi nostrum nemo
+      blanditiis odit magnam fuga temporibus repellendus officia perspiciatis.
+      Odit.
+    </p>
+  </body>
+</html>
