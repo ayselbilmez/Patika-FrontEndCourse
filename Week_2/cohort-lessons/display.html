@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Layout</title>
+    <style>
+      .display {
+        background-color: dodgerblue;
+      }
+      .inline {
+        width: 100px;
+        height: 50px;
+        margin: 10px;
+        display: inline;
+      }
+      .inline-block {
+        width: 100px;
+        height: 50px;
+        margin: 10px;
+        display: inline-block;
+      }
+      .block {
+        height: 50px;
+        margin: 10px;
+        display: block;
+      }
+      .none {
+        display: none;
+      }
+      .hidden {
+        visibility: hidden;
+      }
+      .flex {
+        background-color: mediumpurple;
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+      }
+      .flex div {
+        background-color: white;
+        width: 75px;
+        font-size: 32px;
+        text-align: center;
+        line-height: 75px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Display</h1>
+    <h2>Display: inline;</h2>
+    <p>
+      Lorem, ipsum dolor
+      <span class="display inline">sit amet consectetur</span> adipisicing elit.
+      Repudiandae, veniam itaque placeat sit quod ea sunt ducimus, in harum
+      commodi voluptas reprehenderit quia sapiente minus debitis animi quisquam
+      rerum provident.
+    </p>
+    <h2>Display: inline-block;</h2>
+    <p>
+      Lorem ipsum dolor sit amet
+      <span class="display inline-block">sit amet consectetur</span>consectetur
+      adipisicing elit. Expedita tempora vero quo voluptatibus delectus ex
+      aliquam officia omnis praesentium repellat nihil, quasi laudantium
+      accusantium, quia alias impedit quidem culpa error!
+    </p>
+    <h2>Display: block;</h2>
+    <p>
+      Lorem ipsum dolor sit
+      <span class="display block">sit amet consectetur</span>amet consectetur
+      adipisicing elit. Ab eaque voluptatibus corrupti iste nesciunt nisi
+      recusandae corporis, delectus aliquid omnis inventore. Saepe velit
+      reiciendis molestiae harum eveniet veniam odit illo!
+    </p>
+    <h2>Display: none;</h2>
+    <p>
+      Lorem ipsum dolor sit
+      <span class="display none">sit amet consectetur</span>amet consectetur
+      adipisicing elit. Ab eaque voluptatibus corrupti iste nesciunt nisi
+      recusandae corporis, delectus aliquid omnis inventore. Saepe velit
+      reiciendis molestiae harum eveniet veniam odit illo!
+    </p>
+    <h2>Visibility: hidden;</h2>
+    <p>
+      Lorem ipsum dolor sit
+      <span class="display hidden">sit amet consectetur</span>amet consectetur
+      adipisicing elit. Ab eaque voluptatibus corrupti iste nesciunt nisi
+      recusandae corporis, delectus aliquid omnis inventore. Saepe velit
+      reiciendis molestiae harum eveniet veniam odit illo!
+    </p>
+    <h2>Display: flex;</h2>
+    <h3>Container</h3>
+    <div class="flex">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+    <h3>flex-direction property</h3>
+    <div
+      class="flex"
+      style="
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 200px;
+        align-content: center;
+      "
+    >
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>1</div>
+      <div style="flex-shrink: 0">2</div>
+      <div>3</div>
+      <div style="flex-basis: 200px">1</div>
+      <div style="flex-grow: 1">2</div>
+      <div>3</div>
+    </div>
+
+    <div style="height: 500px"></div>
+  </body>
+</html>
