@@ -1,0 +1,76 @@
+::placeholder{
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    background-position: 40%;
+    background-size: 6%;
+    background-image: url('https://picsum.photos/id/23/200/300');
+    background-repeat: no-repeat;
+}
+
+input.empty{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: #fafafa;
+}
+
+.postuserfont{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.storyphoto{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid red;
+    margin-right: 7px;
+}
+
+.storytext{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+.rightpanellinks:hover{
+    text-decoration: none;
+    color: beige;
+}
+
+.middlearea {
+    max-height: 200px !important;
+}
+
+ul{
+    margin-bottom: 1px !important;
+    border: 0 !important;
+}
+
+.card-footer {
+    border: 1 !important;
+    border-color: beige;
+    background-color: white !important;
+}
+
+.card-header{
+    border: blanchedalmond;
+    background-color: white;
+}
+
+.sharebutton {
+    margin-left: auto;
+}
+
+.rightpanel {
+    border: 0;
+    position: fixed;
+}
+
+.form-inline { 
+    padding-left: 180px;
+}
+
