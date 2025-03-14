@@ -1,0 +1,16 @@
+# Ignore Visual Studio Code specific files
+.vscode/
+*.code-workspace
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore Node.js specific files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore build output
+dist/
+build/
+out/
