@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 
-<body class="font-sans text-sm bg-gray-200 mt-4 mr-10 ml-10">
-    <header class="bg-white p-4 rounded-sm">
-        <nav class="flex justify-between items-center max-w-6xl mx-auto">
+<body class="min-h-screen flex flex-col font-sans text-sm bg-gray-200 mt-4 mr-[100px] ml-[100px]">
+    <!-- navbar -->
+    <header class="bg-white p-4 rounded-sm h-[10%]">
+        <nav class="flex justify-between items-center">
             <div class=" text-lg font-bold">
                 <a href="#"><img src="https://picsum.photos/id/237/200/300" class="w-6 h-6 rounded-full"></a>
             </div>
@@ -19,34 +21,214 @@
                 <a href="#" class="px-4 py-2 hover:bg-purple-200 rounded">Link</a>
                 <a href="#" class="px-4 py-2 hover:bg-purple-200 rounded">Link</a>
                 <button
-                    class="text-white bg-purple-800 px-4 py-2 rounded-sm cursor-pointer hover:bg-white hover:text-black">
+                    class="text-white bg-purple-800 px-4 py-2 rounded-sm cursor-pointer hover:bg-white hover:text-purple-700">
                     Sign In
                 </button>
             </div>
         </nav>
     </header>
+    <!-- navbar bitis -->
 
-    <main>
-        <div class="flex w-full space-x-4 mt-4">
-            <div class="w-3/8 bg-white p-4 text-black text-center">
-                <p class="text-purple">Mamba design system</p>
-                <h1>Build it with Mamba</h1>
-                <p><em>Modular and versatile.</em> The ultimate design toolkit for savvy technology startups.</p>
-
-                <input type="text" placeholder="Your name">
-                <input type="text" placeholder="Your email">
-                <button>Join the waitlist</button>
+    <!-- solda sayfanin 37%lik kismi ve sagda 62%lik kismi kaplayan iki div olusturuldu. -->
+    <main class="font-sans">
+        <section class="flex justify-end mt-6 h-[80%]">
+            <div class="flex h-[80vh] space-x-[20px] w-full items-stretch ">
+                <div
+                    class="w-[40%] flex flex-col justify-center bg-white p-6 rounded-sm text-black text-center px-[4%]">
+                    <p class="text-purple-600 font-bold">Mamba Design System</p>
+                    <h2 class="text-[48px] leading-[3rem] font-bold mt-8 mb-8">Build it with Mamba</h2>
+                    <p class="mb-4 text-lg font-semibold">
+                        <em class="font-bold">Versatile and Modular.</em> The ultimate design toolkit for savvy
+                        technology startups.
+                    </p>
+                    <input type="text" placeholder="Your name" class="block w-full p-2 my-2 rounded border-transparent">
+                    <input type="text" placeholder="Your email address"
+                        class="block w-full p-2 my-2 rounded border-transparent">
+                    <button
+                        class="bg-purple-600 text-white font-bold px-4 py-2 mt-2 rounded hover:bg-white hover:text-purple-600">Join
+                        the
+                        waitlist</button>
+                </div>
+                <div class=" w-[60%] flex items-center justify-center bg-gray-100 rounded-sm">
+                    <img src="https://picsum.photos/id/237/600/500" class="w-full h-full object-cover rounded-sm">
+                </div>
             </div>
-            <div class="w-5/8 bg-white p-0">
-                <img src="https://picsum.photos/id/23/600/400/" class="w-full rounded-sm">
+        </section>
+
+        <!-- 2.sayfa -->
+        <div class="min-h-screen flex-col">
+            <!-- ortadaki yazi  -->
+            <section
+                class="inline-flex flex-col w-full flex justify-center items-center bg-gray-200 mt-[50px] mb-[50px]">
+                <p class="text-purple-600 font-bold leading-[1rem] tracking-wide">HOW IT WORKS</p>
+                <p class="font-extrabold text-[48px] leading-[4rem]">Building with Mamba is simple</p>
+            </section>
+
+            <!-- 3 yan yana kutu -->
+            <section class="flex flex-row gap-4">
+                <div class="basis-1/3 bg-white rounded-sm">
+                    <div
+                        class="w-12 h-12 flex items-center justify-center bg-purple-700 text-white rounded-full text-lg font-bold ml-8 mt-8">
+                        1
+                    </div>
+                    <p class=" align-middle text-center mb-4 text-[24px] font-semibold ">
+                        <em class="font-bold">lorem ipsum</em> Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                </div>
+                <div class="basis-1/3 bg-white rounded-sm">
+                    <div
+                        class="w-12 h-12 flex items-center justify-center bg-purple-700 text-white rounded-full text-lg font-bold ml-8 mt-8">
+                        2
+                    </div>
+                    <p class=" align-middle text-center mb-4 text-[24px] font-semibold ">
+                        <em class="font-bold">lorem ipsum ipsum</em> Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                </div>
+                <div class="basis-1/3 bg-white rounded-sm">
+                    <div
+                        class="w-12 h-12 flex items-center justify-center bg-purple-700 text-white rounded-full text-lg font-bold ml-8 mt-8">
+                        3
+                    </div>
+                    <p class=" align-middle text-center mb-4 text-[24px] font-semibold ">
+                        <em class="font-bold">lorem ipsum</em> Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                </div>
+            </section>
+
+            <!-- %50lik kutular  -->
+
+            <div class="flex flex-row justify-end mt-4">
+                <div class="flex h-[30%] space-x-[20px] w-full items-stretch ">
+                    <div class="flex w-[50%] items-center justify-center bg-gray-100 rounded-sm">
+                        <img src="https://picsum.photos/id/237/600/500" class="w-full h-full object-cover rounded-sm">
+                    </div>
+                    <div
+                        class="w-[50%] flex flex-col justify-center items-center bg-white p-6 rounded-sm text-black text-center px-[4%]">
+                        <div class="basis-1/3 mt-4"><img src="https://picsum.photos/id/237/600/500"
+                                class="w-24 h-24 rounded-full"></div>
+                        <div class="basis-1/3 justify-center">
+                            <p class="font-semibold italic">"Hav hav hav hav Hav hav hav hav Hav hav hav
+                                hav Hav hav hav hav Hav hav hav hav Hav hav hav hav Hav hav hav
+                                hav Hav hav hav hav"</p>
+                        </div>
+                        <div class="flex flex-row justify-center mt-4">
+                            <p class="text-7xl">.</p>
+                            <p class="text-7xl text-gray-400">.</p>
+                            <p class="text-7xl text-gray-400">.</p>
+                            <p class="text-7xl text-gray-400">.</p>
+                        </div>
+                        <div class="basis-1/3 mt-4">
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- 3.sayfa  -->
+
+        <!-- createwithus baslikli metin kutusu -->
+        <div class="flex-col">
+            <section
+                class="flex flex-col w-full h-[250px] flex justify-center items-left bg-white rounded-sm mt-[50px] mb-[50px]">
+                <p class="font-extrabold text-[48px] leading-[4rem] ml-10">Create With Us</p>
+                <p class="text-gray-400 font-light leading-[1rem] tracking-wide ml-10 mt-5">Lorem ipsum dolor sit
+                    amet
+                    consectetur, adipisicing elit. Tempore non facilis obcaecati similique nobis odio. Lorem ipsum
+                    dolor
+                    sit amet, consectetur adipisicing elit. Doloribus, eius. Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Repellat corrupti perspiciatis officia aperiam quos est ipsa, aut corporis
+                    dicta
+                    ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas necessitatibus expedita at,
+                    laboriosam cupiditate dolores possimus autem eligendi fuga! Eaque!</p>
+            </section>
+        </div>
+
+        <!-- resim+metin kutusu -->
+        <div class="flex flex-row justify-end mt-4">
+            <div class="flex h-[400px] w-full items-stretch ">
+                <div class="flex w-[65%] items-center justify-center bg-gray-100 rounded-sm">
+                    <img src="https://picsum.photos/id/27/600/500" class="w-full h-full object-cover rounded-sm">
+                </div>
+                <div
+                    class="w-[35%] flex flex-col justify-center bg-white p-6 rounded-sm text-black text-center px-[4%]">
+                    <div class="flex size-20 items-start justify-start mb-8">
+                        <p class="bg-purple-700  text-white text-sm rounded-xl">Business</p>
+                    </div>
+
+                    <div class="flex items-center justify-center mb-6">
+                        <p class="text-3xl font-extrabold">Lorem ipsum dolor sit amet.</p>
+                    </div>
+
+                    <div class="flex items-left justify-end mb-6">
+                        <p class="text-lg font-light text-gray-400">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.
+                            Quisquam, voluptates.</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- yanyana 3 metin kutusu -->
+        <section class="flex flex-row gap-4 mt-4">
+            <div class="basis-1/3 bg-white rounded-sm">
+                <p class=" align-middle text-center mb-4 text-[12px] font-semibold ">
+                    <em class="font-normal">lorem ipsum</em> Lorem ipsum dolor sit amet consectetur. Lorem ipsum
+                    dolor
+                    sit amet.
+                </p>
+            </div>
+            <div class="basis-1/3 bg-white rounded-sm">
+                <p class=" align-middle text-center mb-4 text-[12px] font-semibold ">
+                    <em class="font-normal">lorem ipsum ipsum</em> Lorem ipsum dolor sit amet consectetur. Lorem
+                    ipsum
+                    dolor sit amet.
+                </p>
+            </div>
+            <div class="basis-1/3 bg-white rounded-sm">
+                <p class=" align-middle text-center mb-4 text-[12px] font-semibold ">
+                    <em class="font-normal">lorem ipsum</em> Lorem ipsum dolor sit amet consectetur. Lorem ipsum
+                    dolor
+                    sit amet.
+                </p>
+            </div>
+        </section>
+
+        <!-- 4.sayfa -->
+
+        <!-- help sayfasi -->
+        <section class="flex flex-col bg-white rounded-sm justify-center mt-4">
+
+            <div class="basis-1/3 m-4">
+                <h2 class="font-extrabold text-7xl text-black ">Our team here to help you</h2>
+            </div>
+            <div class="basis-1/3 m-4">
+                <p class="text-gray-400 font-light text-xl ">asdhahdja></p>
+            </div>
+
+            <div class="basis-1/3 mt-4">
+                <img src="https://picsum.photos/id/235/1200/500" class=" m-4">
+            </div>
+        </section>
+
+        <!-- footer  -->
+        <section class="bg-white p-4 rounded-lg h-[10%] mt-4 mb-4">
+            <nav class="flex justify-between items-center">
+                <div class=" text-lg font-bold">
+                    <a href="#" class="font-bold text-black">Mamba</a>
+                </div>
+                <div class="text-black flex space-x-2">
+                    <a href="#" class="px-2 py-2"><img src="https://picsum.photos/id/63/200/300"
+                            class="w-6 h-6 rounded-full"></a>
+                    <a href="#" class="px-2 py-2"><img src="https://picsum.photos/id/28/200/300"
+                            class="w-6 h-6 rounded-full"></a>
+                    <a href="#" class="px-2 py-2"><img src="https://picsum.photos/id/25/200/300"
+                            class="w-6 h-6 rounded-full"></a>
+                </div>
+            </nav>
+        </section>
     </main>
-
-    <footer>
-
-    </footer>
-
 </body>
 
 </html>
