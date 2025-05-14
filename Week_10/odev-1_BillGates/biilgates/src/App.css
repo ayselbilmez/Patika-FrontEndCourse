@@ -1,0 +1,49 @@
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  color: rgb(53, 52, 52);
+  background-color: rgb(255, 255, 255);
+  margin-top: 3rem;
+  padding: 3rem;
+  height: 12rem;
+  width: 55rem;
+}
+
+.intro img {
+  width: 15vh;
+  border-radius: 100%;
+}
+
+.intro h1 {
+  font-size: 2.6rem;
+}
+
+.balance {
+  display: flex;
+  background-image: linear-gradient(180deg, #2ecc71, #1abc9c);
+  padding: 1.2rem;
+  margin: 1rem;
+  width: 58.6rem;
+  justify-content: center;
+  color: white;
+  font-size: 2.3rem;
+  font-weight: bolder;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 90px;
+  justify-items: center;
+  max-width: 900px;
+  margin: 5px;
+}

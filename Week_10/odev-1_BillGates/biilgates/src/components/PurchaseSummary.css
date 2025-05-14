@@ -1,0 +1,32 @@
+.reciept {
+  padding: 70px;
+  color: rgb(53, 52, 52);
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reciept h3 {
+  font-size: 1.8rem;
+}
+
+.reciept li {
+  gap: 2.8rem;
+}
+
+.price1 {
+  color: #1abc9c;
+}
+
+hr {
+  color: black;
+  height: 1px;
+  width: 20rem;
+  margin-top: -1rem;
+}
+
+.total span {
+  padding: 2.9rem;
+}
