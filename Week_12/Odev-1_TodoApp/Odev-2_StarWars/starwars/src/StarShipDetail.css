@@ -1,0 +1,52 @@
+.detail-container {
+  background-image: url(../../public/ship.jfif);
+  background-repeat: no-repeat;
+  background-position: top center;
+  max-width: 600px;
+  height: 430px;
+  margin: 40px auto;
+  padding: 30px;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.detail-container:hover {
+  box-shadow: 0 1px 20px var(--background-color-4);
+}
+
+.detail-container h2 {
+  font-size: 30px;
+  margin-top: 150px;
+}
+
+.detail-container p {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.btn1 {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: var(--background-color-2);
+  font-weight: bold;
+  color: var(--text-color-1);
+  font-size: 17px;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: var(--background-color-3);
+  transition: ease-in-out 0.3s;
+}
+
+.loading {
+  text-align: center;
+  font-size: 25px;
+  color: var(--text-color-1);
+  margin-top: 80px;
+}
